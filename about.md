@@ -13,3 +13,5 @@ Some information about you!
 ### Contact me
 
 [sooman.dev@gmail.com](mailto:sooman.dev@gmail.com)
+
+[블로그 만들기 참조글](http://thdev.net/653)
