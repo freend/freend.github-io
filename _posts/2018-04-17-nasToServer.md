@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nas To Server
+tags: [nas]
 ---
 
 ## nas에 홈페이지 올리기
