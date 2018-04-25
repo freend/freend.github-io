@@ -11,16 +11,6 @@ description: Web / App Back-end develope
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
-navigation:
- - title: Home
-   url: /index.html
- - title: About
-   url: /about
- - title: Categories
-   url: /category
- - title: Contact
-   url: /contact
-
 #
 # Flags below are optional
 #
