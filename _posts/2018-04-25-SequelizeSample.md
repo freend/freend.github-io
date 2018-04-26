@@ -19,6 +19,16 @@ MongoDB is an example of a document database - you would use an ODM to translate
 
 여기서는 내가 이해하는 방식으로 sequelize에 대해 설치와 사용을 적어보도록 하겠다.
 
+### Install Sequelize
+[npm sequelize](https://www.npmjs.com/package/sequelize)에 가면 설치방법을 알 수 있다.<br>
+설치까지는 누구든 할 수 있으니 그 다음으로 넘어가 보자.
+
+
 ### sequelize sample repository
 사실 하단의 레포지토리에 가면 model.md나 route.md를 참조하면 내용을 대충 알수는 있다.
 [git repository](https://github.com/freend/node-sequelize)
+[sequelize git](https://github.com/sequelize/express-example)에 가면 sequelize에서 만든 예제소스가 있다.<br>
+그런데 여기의 package.json을 보면 sequelize의 버전을 알 수 있는데 여기 표기된 버전은 "sequelize": "^3.23.6", 바로 3버전대를 사용한다.<br>
+하지만 내가 설치한 아마도 저보다 늦은 분들은 버전이 "sequelize": "^4.37.4"와 같이 최소 4버전을 사용한다.<br>
+그래서 sample에서 사용된게 버전4에서는 바뀐게 좀 있다. [공식문서](http://docs.sequelizejs.com/manual/installation/getting-started.html)를 봐도 4에서 3과 변경된 부분이 좀 있어 보인다.<br>
+그래서 sequelize git을 기준으로 하되 바뀐것이나 그런건 4의 문서를 참조해서 작업했다.
