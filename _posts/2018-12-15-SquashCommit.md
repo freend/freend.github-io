@@ -1,2 +1,2 @@
 #### SquashCommit
-[링크 참조하기](SquashCommit.md)
+[링크](SquashCommit.md)
