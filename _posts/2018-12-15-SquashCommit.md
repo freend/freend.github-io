@@ -1,15 +1,3 @@
-## Git 사용 규칙
-
-#### Remote Branch
-
-Remote Branch에는 다음 3개의 Branch만이 존재해야 한다.
-
-- master : 현재 릴리즈 중인 소스의 버전만 올라간다.
-- dev : 개발중인 버전
-- debug : 수정중인 버전
-
-릴리즈 버전이 크게 변경된 것은 master에 merge전에 태그등을 이용해 위치를 표기해 준다.
-
 #### Squash commit
 
 로컬에서 개발하던 것중 내용이 비슷한 여러 커밋은 Squash commit을 이용해서 커밋을 깔끔하게 정리해 준다.
@@ -43,10 +31,3 @@ Remote Branch에는 다음 3개의 Branch만이 존재해야 한다.
 1. 최종적으로 확인을 누르게 되면 다음과 같이 됩니다.
    ![](/images/SquashCommit/Squash07.png)
 2. 이렇게 커밋을 묶을 수 있는 Squash 기능을 사용해서 커밋을 깔끔하게 정리하도록 해주자. 단 서버에 푸시하기 전에 해야 한다.
-
-#### Instance에서 remote branch가 보이지 않는 경우
-
-Instance에서 remote branch가 보이지 않을 수 있다. 이 경우 다음의 명령어를 사용하자
-`
-git remote update origin --prune
-`
